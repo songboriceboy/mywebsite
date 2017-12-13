@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        /*父元素 子元素*/
+        #ddd li{
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+<h3>我的电脑文件列表</h3>
+
+<ul>
+    <li>java</li>
+    <li>php</li>
+    <li>C++</li>
+</ul>
+
+<ul>
+    <li id="ddd">
+        我的电脑
+        <ul type="circle" id="computer">
+            <li>
+                本地磁盘c
+                <ul type="square">
+                    <li>我的文档</li>
+                    <li>我的收藏</li>
+                </ul>
+            </li>
+            <li>
+                本地磁盘d
+                <ul type="square">
+                    <li>我的游戏</li>
+                    <li>我的电影</li>
+                </ul>
+            </li>
+        </ul>
+
+    </li>
+</ul>
+</body>
+</html>
